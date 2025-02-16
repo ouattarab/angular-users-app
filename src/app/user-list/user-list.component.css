@@ -1,0 +1,13 @@
+ngx-datatable {
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 200px;
+    background-color: white;
+  }
+  
+  ngx-datatable .datatable-body-row {
+    display: flex !important;
+    visibility: visible !important;
+    height: auto !important;
+  }
+  

@@ -1,0 +1,22 @@
+<!-- Bouton d'importation de fichier CSV -->
+<div class="mb-2">
+    <input type="file" accept=".csv" (change)="onFileSelect($event)" />
+    <span *ngIf="selectedFileName">Fichier sélectionné : {{ selectedFileName }}</span>
+  </div>
+
+  <!-- Bouton d'exportation CSV -->
+<button (click)="exportToCSV()" class="btn btn-primary mb-2">Exporter en CSV</button>
+  
+  <!-- Table ngx-datatable -->
+  <ngx-datatable
+    class="bootstrap"
+    [rows]="users"
+    [columns]="columns"
+    columnMode="force"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    rowHeight="auto"
+    [count]="users.length"
+    [limit]="5">
+  </ngx-datatable>
+  

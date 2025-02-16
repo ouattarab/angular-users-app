@@ -1,0 +1,15 @@
+{
+    "users": [
+      { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "age": 28, "city": "Paris" },
+      { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "age": 34, "city": "Lyon" },
+      { "id": 3, "name": "Charlie Brown", "email": "charlie@example.com", "age": 25, "city": "Marseille" },
+      { "id": 4, "name": "David White", "email": "david@example.com", "age": 42, "city": "Toulouse" },
+      { "id": 5, "name": "Emma Davis", "email": "emma@example.com", "age": 31, "city": "Bordeaux" },
+      { "id": 6, "name": "Frank Miller", "email": "frank@example.com", "age": 29, "city": "Nice" },
+      { "id": 7, "name": "Grace Lee", "email": "grace@example.com", "age": 27, "city": "Nantes" },
+      { "id": 8, "name": "Hannah Martin", "email": "hannah@example.com", "age": 36, "city": "Strasbourg" },
+      { "id": 9, "name": "Ian Clark", "email": "ian@example.com", "age": 40, "city": "Lille" },
+      { "id": 10, "name": "Jack Wilson", "email": "jack@example.com", "age": 33, "city": "Rennes" }
+    ]
+  }
+  
